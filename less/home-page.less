@@ -114,13 +114,16 @@
       width: 30%;
       margin-bottom: 30px;      
       .btn{
-        .excursion-buttons(#3CAEA3);
+        .excursion-buttons(#3CAEA3, 80%);
       }
       @media @tablet{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 90%;
+        .btn{
+          .excursion-buttons(silver, 30%);
+        }
   
       }
       @media @mobile{
@@ -128,6 +131,9 @@
         flex-direction: column;
         align-items: center;
         width: 90%;
+        .btn{
+          .excursion-buttons(silver, 50%);
+        }
   
       }      
     }
