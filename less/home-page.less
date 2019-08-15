@@ -1,4 +1,9 @@
 .home {
+  header{
+    hr{      
+      border-bottom: 3px dashed @navigation-border;      
+    }
+  }
 
   .content-section {
     margin: 30px 0;
@@ -49,13 +54,16 @@
 
   .content-pick {
     padding-top: 30px;
-    border-top: 2px dashed @navigation-border;
+    border-top: 2px dashed silver;
     display: flex;
     justify-content: space-between;
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      .btn{
+        .excursion-buttons(#3CAEA3);
+      }
     }
   }
 }// home
