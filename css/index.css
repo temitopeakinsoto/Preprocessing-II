@@ -375,7 +375,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 70%;
   }
   .home .content-pick .destination .btn {
     margin: 1em 0;
@@ -398,6 +398,9 @@ img {
 .home .form-section {
   width: 90%;
   color: #ffd79a;
+}
+.home .form-section h2 {
+  margin: 0 60px;
 }
 .home .form-section .form {
   padding: 5.5rem;
