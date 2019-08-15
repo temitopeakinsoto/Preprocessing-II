@@ -26,6 +26,7 @@
         flex-direction: column;
         align-items: center;
         width: 90%;
+        margin: 20px 0;
       }
     }
 
@@ -44,7 +45,10 @@
 
   .inverse-content {
     padding-bottom: 30px;
-    border-bottom: 2px dashed @navigation-border;  
+    border-bottom: 2px dashed @navigation-border;
+    @media (max-width: 503px) {      
+      flex-direction: column-reverse;
+    }  
    
     .text-content {
       padding-left: 1%;
@@ -58,7 +62,7 @@
   }
 
   .content-destination {
-    width: 75%;
+    width: 90%;
     margin: 0 auto 30px;   
 
     img {
@@ -68,6 +72,8 @@
     @media (max-width: 503px) {
       display: flex;
       flex-direction: column;
+      align-items: center;
+      margin: 20px 0;
 
     }
   }
@@ -81,18 +87,24 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 90%;
 
     }
-    
-    // align-items: center;  
-
+ 
     .destination {
       width: 30%;
-      margin-bottom: 30px;
+      margin-bottom: 30px;      
       .btn{
         .excursion-buttons(#3CAEA3);
       }
-      
+
+      @media (max-width: 503px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+  
+      }      
     }
 
     @media (max-width: 503px) {
