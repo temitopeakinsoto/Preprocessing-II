@@ -187,6 +187,11 @@ img {
   list-style: none;
   margin-right: 42rem;
 }
+@media (max-width: 505px) {
+  .nav-bar .nav-logo {
+    margin: 1.5rem 0;
+  }
+}
 .nav-bar .nav-links {
   display: flex;
   flex: 1;
@@ -212,7 +217,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media (max-width: 501px) {
+@media (max-width: 505px) {
   .home .content-section {
     display: flex;
     flex-direction: column;
@@ -225,7 +230,7 @@ img {
   width: 48%;
   padding-right: 1%;
 }
-@media (max-width: 501px) {
+@media (max-width: 505px) {
   .home .content-section .text-content {
     display: flex;
     flex-direction: column;
@@ -250,7 +255,7 @@ img {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-@media (max-width: 501px) {
+@media (max-width: 505px) {
   .home .inverse-content {
     flex-direction: column-reverse;
   }
@@ -270,7 +275,7 @@ img {
 .home .content-destination img {
   border-radius: 10px;
 }
-@media (max-width: 501px) {
+@media (max-width: 505px) {
   .home .content-destination {
     display: flex;
     flex-direction: column;
@@ -284,7 +289,15 @@ img {
   display: flex;
   flex-direction: row;
 }
-@media (max-width: 501px) {
+@media (max-width: 505px) {
+  .home .content-pick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
   .home .content-pick {
     display: flex;
     flex-direction: column;
@@ -307,7 +320,15 @@ img {
   font-size: 1.9rem;
   width: 80%;
 }
-@media (max-width: 501px) {
+@media (max-width: 505px) {
+  .home .content-pick .destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
   .home .content-pick .destination {
     display: flex;
     flex-direction: column;
@@ -323,7 +344,7 @@ img {
 }
 .home .form-section {
   width: 90%;
-  color: blue;
+  color: #ffd79a;
 }
 .home .form-section .form {
   padding: 5.5rem;
@@ -334,6 +355,9 @@ img {
 }
 .home .form-section .form input {
   height: 70px;
+  margin: 10px 0;
+}
+.home .form-section .form textarea {
   margin: 10px 0;
 }
 .footer {

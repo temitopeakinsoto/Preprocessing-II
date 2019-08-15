@@ -1,15 +1,15 @@
 // Mixins in here
 
-.excursion-buttons(@color) {
+.excursion-buttons(@border-radius, @width, @color) {
     margin: 1em 0;
     padding: 0.7em;
     color: white;
     background-color: powderblue;
     border: .1em solid @color;
-    border-radius: 14%;
+    border-radius: @border-radius;
     text-align: center;
     font-size: 1.9rem;
-    width: 80%;  
+    width: @width;  
     
   }
   
