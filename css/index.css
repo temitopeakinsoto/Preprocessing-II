@@ -321,6 +321,16 @@ img {
     flex-direction: column;
   }
 }
+.home .form-section {
+  width: 100%;
+}
+.home .form-section .form {
+  padding: 5.5rem;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .footer {
   width: 100%;
   max-width: 1000px;
