@@ -10,18 +10,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    @media (max-width: 503px) {
+    @media @mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
       margin: 0;
-      width: 100%;
+      width: 100%; 
     }   
     
     .text-content {
       width: 48%;
       padding-right: 1%;
-      @media (max-width: 503px) {
+      @media @mobile {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -46,7 +46,7 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
-    @media (max-width: 503px) {      
+    @media @mobile{      
       flex-direction: column-reverse;
     }  
    
@@ -69,7 +69,7 @@
       border-radius: 10px;
     }
 
-    @media (max-width: 503px) {
+    @media @mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -83,7 +83,7 @@
     border-top: 2px dashed silver;
     display: flex;
     flex-direction: row;
-    @media (max-width: 503px) {
+    @media @mobile{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -97,7 +97,7 @@
       .btn{
         .excursion-buttons(#3CAEA3);
       }
-      @media (max-width: 503px) {
+      @media @mobile{
         display: flex;
         flex-direction: column;
         align-items: center;
