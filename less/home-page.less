@@ -1,15 +1,24 @@
 .home {
   header{
     hr{      
-      border-bottom: 3px dashed @navigation-border;      
+      border-bottom: 0.3rem dashed @navigation-border;      
     }
   }
 
   .content-section {
-    margin: 30px 0;
+    margin: 3rem 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media @tablet {
+      align-items: center;
+      margin: 0;
+      padding: 0 1rem;
+      margin: 4rem 0;
+      width: 100%; 
+    }
+    
     @media @mobile {
       display: flex;
       flex-direction: column;
@@ -26,14 +35,14 @@
         flex-direction: column;
         align-items: center;
         width: 90%;
-        margin: 20px 0;
+        margin: 2rem 0;
       }
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
-      @media (max-width: 503px) {      
+      @media @mobile {      
         width: 90%;
       }
 
@@ -44,7 +53,7 @@
   }
 
   .inverse-content {
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
     border-bottom: 2px dashed @navigation-border;
     @media @mobile{      
       flex-direction: column-reverse;
@@ -63,17 +72,21 @@
 
   .content-destination {
     width: 90%;
-    margin: 0 auto 30px;   
+    margin: 0 auto 3rem;   
 
     img {
-      border-radius: 10px;
+      border-radius: 1rem;
+    }
+    @media @tablet {
+      margin: 20px 0;
+      padding: 0 4rem;
     }
 
     @media @mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin: 20px 0;
+      margin: 2rem 0;
 
     }
   }
@@ -83,6 +96,12 @@
     border-top: 2px dashed silver;
     display: flex;
     flex-direction: row;
+    @media @tablet {
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+
+    }
     @media @mobile{
       display: flex;
       flex-direction: column;
@@ -96,6 +115,13 @@
       margin-bottom: 30px;      
       .btn{
         .excursion-buttons(#3CAEA3);
+      }
+      @media @tablet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+  
       }
       @media @mobile{
         display: flex;
