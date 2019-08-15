@@ -202,7 +202,7 @@ img {
   text-decoration: none;
   margin-right: 30px;
 }
-@media (max-width: 503px) {
+@media (max-width: 505px) {
   .nav-bar .nav-links .nav-item {
     display: flex;
     flex-direction: row;
@@ -297,14 +297,6 @@ img {
     width: 90%;
   }
 }
-@media (max-width: 800px) {
-  .home .content-pick {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-  }
-}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
@@ -321,14 +313,6 @@ img {
   width: 80%;
 }
 @media (max-width: 505px) {
-  .home .content-pick .destination {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-  }
-}
-@media (max-width: 800px) {
   .home .content-pick .destination {
     display: flex;
     flex-direction: column;
