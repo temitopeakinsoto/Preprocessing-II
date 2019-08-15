@@ -132,6 +132,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  font-weight: bold;
 }
 html,
 body {
@@ -385,7 +386,7 @@ img {
     border-radius: 14%;
     text-align: center;
     font-size: 1.9rem;
-    width: 50%;
+    width: 90%;
   }
 }
 @media (max-width: 503px) {
