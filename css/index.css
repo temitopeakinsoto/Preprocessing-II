@@ -322,7 +322,8 @@ img {
   }
 }
 .home .form-section {
-  width: 100%;
+  width: 90%;
+  color: blue;
 }
 .home .form-section .form {
   padding: 5.5rem;
@@ -330,6 +331,10 @@ img {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.home .form-section .form input {
+  height: 70px;
+  margin: 10px 0;
 }
 .footer {
   width: 100%;
