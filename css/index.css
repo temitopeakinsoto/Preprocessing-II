@@ -282,7 +282,7 @@ img {
   padding-top: 30px;
   border-top: 2px dashed silver;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 @media (max-width: 503px) {
   .home .content-pick {
